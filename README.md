@@ -17,8 +17,8 @@
 * ご自身の環境で以下を入力
 
 ```
+cd ~/ros2_ws/src
 $ https://github.com/JusticeMaple/mypkg.git
-
 ```
 #ビルド方法
 ```
