@@ -19,12 +19,12 @@
 
 ```
 $ https://github.com/JusticeMaple/mypkg.git
-
 ```
 #ビルド方法
-
+```
 $ cd ~/ros2_ws
 $ colcon build
+$ git switch -f ex
 ```
 ## 「talker.py」,「listener.py」の機能について
 * talker.pyで1ずつ加算されていく数を、listener.pyで表示する。
@@ -33,14 +33,16 @@ $ colcon build
 ```
 $ cd ~/ros2_ws
 $ ros2 launch mypkg talk_listen.launch.py
-[INFO] [launch]: All log files can be found below /home/tei/.ros/log/2023-12-17-22-55-11-639875-JusticeZWY-37104
+[INFO] [launch]: All log files can be found below /home/tei/.ros/log/2023-12-18-00-50-17-813030-JusticeZWY-48979
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [37105]
-[INFO] [listener-2]: process started with pid [37107]
-[listener-2] [INFO] [1702821312.336951071] [listener]: Listen: 0
-[listener-2] [INFO] [1702821312.829435447] [listener]: Listen: 1
-[listener-2] [INFO] [1702821313.328767545] [listener]: Listen: 2
-[listener-2] [INFO] [1702821313.829203116] [listener]: Listen: 3
+[INFO] [talker-1]: process started with pid [48980]
+[INFO] [listener-2]: process started with pid [48982]
+[talker-1] [INFO] [1702828219.015622307] [talker]: Publishing: 1
+[listener-2] [INFO] [1702828219.021232081] [listener_node]: Listen: 1, Result: odd
+[talker-1] [INFO] [1702828220.007516302] [talker]: Publishing: 2
+[listener-2] [INFO] [1702828220.008949456] [listener_node]: Listen: 2, Result: even
+[talker-1] [INFO] [1702828221.007046993] [talker]: Publishing: 3
+[listener-2] [INFO] [1702828221.008178050] [listener_node]: Listen: 3, Result: odd
 ・・・
 ```
 ## ノードとトピック
