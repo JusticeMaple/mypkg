@@ -1,7 +1,7 @@
 # mypkg
 ![test](https://github.com/JusticeMaple/mypkg/actions/workflows/test.yml/badge.svg)
 
-* mkpkgはROS2のパッケージです.
+*このパッケージはROS2のパッケージとなっています。
 
 * mypkgの中にtalker.py(パブリッシャを持つノード), listener.py(サブスクライバをもつノード), talk_listen.launch.py(2つのノードを一度に立ち上げるファイル)があります.
 
