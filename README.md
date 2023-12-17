@@ -1,15 +1,16 @@
 # mypkg
 ![test](https://github.com/JusticeMaple/mypkg/actions/workflows/test.yml/badge.svg)
 
-## ブランチlesson10について
+## ブランチexについて
 
-*こちらのブランチのプログラムは数学的なプログラムです。
+*こちらのブランチのプログラムは数学的なプログラムです。数が加算されると同時に、その数が偶数か奇数かを判定し、その情報を表示するものです。
+
 
 ## リポジトリの概要
 
-* talker.py : パブリッシャーの役割を持つ
+* talker.py : パブリッシャー
 
-* listener.py : サブスクライバーの役割を持つ
+* listener.py : サブスクライバー
 
 ## 使用前の準備
 # インストール方法
