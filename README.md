@@ -1,5 +1,5 @@
 # mypkg
-![test](https://github.com/SomaKobayashi/mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/JusticeMaple/mypkg/actions/workflows/test.yml/badge.svg)
 
 * mkpkgはROS2のパッケージです.
 
