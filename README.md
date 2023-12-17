@@ -1,4 +1,4 @@
-# robosys2023
+# ROS2
 
 [![test](https://github.com/JusticeMaple/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/JusticeMaple/robosys2023/actions/workflows/test.yml)
 
