@@ -23,7 +23,9 @@ $ https://github.com/JusticeMaple/mypkg.git
 #ビルド方法
 ```
 $ cd ~/ros2_ws
+$ git switch -f lesson10
 $ colcon build
+
 ```
 ## 「talker.py」,「listener.py」の機能について
 * talker.pyで1ずつ加算されていく数を、listener.pyで表示する。
