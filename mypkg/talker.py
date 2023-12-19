@@ -3,6 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 # talker.py
+
+import os
+
+os.environ['RCUTILS_CONSOLE_OUTPUT_FORMAT'] = '{severity} [{name}]: {message}'
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
