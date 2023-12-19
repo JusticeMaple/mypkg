@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-FileCopyrightText: © 2023 Yunyuan_Zheng
+# SPDX-FileCopyrightText: 2023 Yunyuan_Zheng
 # SPDX-License-Identifier: BSD-3-Clause
 
 # talker.py
