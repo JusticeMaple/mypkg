@@ -1,4 +1,0 @@
-Invoking command in '/home/tei/ros2_ws/src/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tei/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/tei/ros2_ws/src/build/person_msgs -- -j20 -l20
-Invoked command in '/home/tei/ros2_ws/src/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tei/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/tei/ros2_ws/src/build/person_msgs -- -j20 -l20
-Invoking command in '/home/tei/ros2_ws/src/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tei/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/tei/ros2_ws/src/build/person_msgs
-Invoked command in '/home/tei/ros2_ws/src/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tei/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/tei/ros2_ws/src/build/person_msgs
