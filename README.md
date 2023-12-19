@@ -18,12 +18,7 @@
 * ご自身の環境で以下を入力
 
 ```
-<<<<<<< HEAD
 $ git clone https://github.com/JusticeMaple/mypkg.git
-
-=======
-$ https://github.com/JusticeMaple/mypkg.git
->>>>>>> 84f00649e80da3c6e330c787c3e6739ae0187cc1
 ```
 #ビルド方法
 ```
