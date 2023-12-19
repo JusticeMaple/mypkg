@@ -17,5 +17,6 @@ if grep -q 'Listen: 5, Result: odd' /tmp/mypkg.log; then
   echo "Test Passed: Expected output found."
 else
   echo "Test Failed: Expected output not found."
+  exit 1  # テスト失敗時にスクリプトを終了する
 fi
 
